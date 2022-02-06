@@ -3,26 +3,31 @@
 
 /* ==Global style== */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-body, html{
+
+body, html {
     overflow-x: hidden;
 }
-.active{
+
+.active {
     color: #fc036b;
     text-decoration: underline;
     font-weight: bold;
 }
-.navbar{
+
+.navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -32,18 +37,20 @@ body, html{
     padding: 20px;
     color: whitesmoke;
     background-color: black;
-   
+
 }
-.nav-links{
-  display: flex;
-  align-items: center;
- 
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
 }
-.nav-links li{
+
+.nav-links li {
     margin: 0 30px;
 }
 
-header{
+header {
     width: 100vw;
     height: 100vh;
     background-image: url("../img/altai-6943982_1920.jpg");
@@ -53,36 +60,41 @@ header{
     align-items: flex-end;
     gap: 100px;
     justify-content: center;
-} 
-.header-content{
+}
+
+.header-content {
     margin-bottom: 150px;
     color: whitesmoke;
     text-align: center;
 
 }
-.header-content h2{
+
+.header-content h2 {
     font-size: 4vmin;
 }
 
-.line{
+.line {
     width: 150px;
     height: 4px;
     background: #fc036b;
     margin: 10px auto;
     border-radius: 5px;
 }
-.header-content h1{
+
+.header-content h1 {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.ctn{
+
+.ctn {
     padding: 8px 15px;
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
 }
-.menu-btn{
+
+.menu-btn {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -93,20 +105,22 @@ header{
 
 /* Mobile responsive */
 
-@media only screen and (max-width: 850px) 
-{   
-    .menu-btn{
+@media only screen and (max-width: 850px) {
+    .menu-btn {
         display: block;
     }
-    .navbar{
+
+    .navbar {
         padding: 0;
     }
-    .logo{
+
+    .logo {
         position: absolute;
         top: 30px;
         left: 30px;
     }
-    .nav-links{
+
+    .nav-links {
         flex-direction: column;
         width: 100%;
         height: 100vh;
@@ -115,52 +129,115 @@ header{
         margin-top: -1000px;
         transition: all 0.5s ease;
     }
-    .mobile-menu{
+
+    .mobile-menu {
         margin-top: 0px;
         border-bottom-right-radius: 30%;
     }
-    .nav-links li{
+
+    .nav-links li {
         margin: 30px auto;
     }
 }
 
 /* events */
 
-section{
-     width: 80%;
-     margin: 80px auto;
+section {
+    width: 80%;
+    margin: 80px auto;
 }
-.title{
+
+.title {
     text-align: center;
     font-size: 4vmin;
     color: #484872;
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
 }
-.row .col img{
+
+.row .col img {
     width: 80%;
 }
-.row .col{
+
+.row .col {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.events .row{
-    margin-top: 50px ;
+
+.events .row {
+    margin-top: 50px;
 }
-h4{
+
+h4 {
     font-size: 3vmin;
     color: #484872;
     margin: 20px auto;
 }
-p{
+
+p {
     color: #7c7c7c;
     padding: 0px 40px;
 }
-.events .ctn{
+
+.events .ctn {
     margin-top: 30px;
+}
+
+.explore {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/benches-560435_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   /* mix-blend-mode: black; */
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+}
+
+.explore-content .line {
+    margin-bottom: 50px;
+}
+
+.explore-content p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.explore-content .ctn {
+    margin-top: 40px;
+}
+.tours .row .col{
+    width: 50%;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+.image-gallery img{
+ 
+   margin: 10px;
 }
