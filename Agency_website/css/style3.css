@@ -218,10 +218,10 @@ p {
     font-size: 7vimn;
     color: #484872;
 }
-.content-col .line{
-    margin-left:280px
+/* .content-col .line{
+    margin-left:12em
     
-}
+} */
 
 .content-col p{
     padding: 0;
@@ -231,6 +231,7 @@ p {
 .content-col .ctn{
     margin-left: -100px;
 }
+/* footer */
 .footer{
     width: 100%;
     height: 200px;
@@ -244,7 +245,7 @@ p {
     margin: 20px auto;
 }
 
-/* Mobile responsive */
+/* Mobile responsive */ 
 @media only screen and (max-width: 850px) {
     .menu-btn {
         display: block;
